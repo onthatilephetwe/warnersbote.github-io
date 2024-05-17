@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WARNERBROS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .hero {
+      background-image: url("IMAGES/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.avif"); /* Replace with your image URL */
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Changed height to viewport height */
+    }
+
+    h2 {
+      color: green;
+    }
+
+    p {
+      color: white;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      line-height: 150%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #00cfff;
+    }
+
+    .header h1 {
+      color: #9700ff;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #00cfff;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #00cfffr;
+      color: white;
+    }
+
+    .social {
+      color: red;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #00cfffr;
+      color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      padding: 10px;
+      color: white;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #84e4e2;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 20px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+    }
+
+    .label {
+      text-align: center;
+    }
+
+    .fab.fa-facebook {
+      font-size: 70px;
+      color: red;
+    }
+
+    /* New CSS for sign-in options */
+    .signin-options {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .signin-options a {
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+
+    /* New CSS for social sign-in options */
+    .social-signin-options {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-signin-options a {
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+
+    /* New CSS for form alignment */
+    .form-container {
+      text-align: center;
+    }
+
+    form {
+      display: inline-block;
+      text-align: left;
+    }
+
+    form label {
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    form input[type="text"],
+    form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    form textarea {
+      resize: vertical;
+    }
+
+    form input[type="submit"] {
+      background-color: #00cfff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #00cfffr;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero">
+    <header class="header">
+      <h1>WARNERBROS</h1>
+    </header>
+    <aside class="left">
+      <img src="IMAGES/WARNERBROS.jpeg" width="172px">
+      <ul>
+        <li><a class="active" href="warnersbros.html">Home</a></li>
+        <li><a href="movies/MOVIES.html">Movies</a></li>
+        <li><a href="tv shows/TV SHOWS.html">TV Shows</a></li>
+        <li><a href="games&apps/Games&Apps.html">Games&Apps</a></li>
+        <li><a href="collection/Collection.html">Collection</a></li>
+        <li><a href="feedback/Feedback.html">Feedback</a></li>
+      </ul>
+      <br><br>
+      <p>"#TAG know what studios are planning."<br>- AT WARNERBROS</p>
+      
+      <!-- Sign-in options -->
+      <div class="signin-options">
+        <a href="https://www.google.com">Sign in with Google</a>
+        <a href="https://www.facebook.com">Sign in with Facebook</a>
+        <a href="https://www.twitter.com">Sign in with Twitter</a>
+
+      <!-- Social sign-in options -->
+      <div class="social-signin-options">
+        <a href="https://www.instagram.com">Sign in with Instagram</a>
+        <a href="https://www.linkedin.com">Sign in with LinkedIn</a>
+        <a href="https://www.github.com">Sign in with GitHub</a>
+      </div>
+    </aside>
+    <main class="content">
+      <h2>About Me</h2>
+      <p>Warner Bros. is a renowned entertainment company founded in 1923 by the Warner brothers. With a rich history spanning decades, it stands as one of the largest film and television production studios globally. Known for its diverse content range, including blockbuster films, TV shows, and video games, Warner Bros. boasts iconic franchises like Harry Potter, DC Comics adaptations, and The Lord of the Rings. Additionally, the company operates television production divisions responsible for hit shows like Friends and Game of Thrones. Over time, Warner Bros. has expanded its reach into various entertainment sectors, including distribution, streaming services, and theme parks, solidifying its influence in shaping popular culture worldwide.</p>
+      <h2>Our Goal</h2>
+      <p>Increase Engagement: Keep visitors interested with engaging content like trailers and reviews.<br>Drive Traffic: Use SEO, social media, and partnerships to attract more visitors.<br>Promote Releases: Generate excitement and boost sales for new entertainment releases.<br>Improve User Experience: Make the website easy to navigate and use.<br>Build Community: Allow users to connect and share opinions on the platform.<br>Monetize: Earn revenue through ads, affiliate marketing, subscriptions, or merchandise.<br>Analyze and Optimize: Continuously improve by analyzing user data and refining strategies.</p>
+      <hr><br>
+      
+      <!-- Movies and TV Shows wrapper -->
+      <div class="movies-wrapper">
+        <h2>HEAR AND BE AHEAD, STAY TUNED FOR!</h2>
+        <table>
+          <tr>
+            <th>Godzilla x Kong: The New Empire</th>
+            <th>Kingdom of the Planet of the Apes</th>
+            <th>The Ministry of Ungentlemanly Warfare</th>
+          </tr>
+          <tr>
+            <td><a href="movies/MOVIES.html"><img src="IMAGES/download.jpeg" alt="ONCINEMA CLICK TAP" width="202" height="249"></a></td>
+            <td><a href="movies/MOVIES.html"><img src="IMAGES/images.jpeg" alt="Don't MISSOUT" width="201" height="251"></a></td>
+            <td><a href="movies/MOVIES.html"><img src="IMAGES/war.jpg" alt="The TOP 3" width="252" height="201"></a></td>
+          </tr>
+          <tr>
+            <td><a href="movies/MOVIES.html">TAP</a></td>
+            <td><a href="movies/MOVIES.html">TAP</a></td>
+            <td><a href="movies/MOVIES.html">TAP</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <!-- Form -->
+      <div class="form-container">
+        <form>
+          <label>Email: <input type="text" name="email"></label><br>
+          <label> Mobile: <input type="text" name="mobile"> </label><br>
+          <label> Message: <textarea name="comments" rows="4">Enter your message</textarea></label><br>
+          <input type="submit" value="Submit" /><br>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">&copy; Copyright WARNERBROS</footer>
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
